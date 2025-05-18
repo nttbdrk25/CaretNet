@@ -20,21 +20,10 @@ benchmark datasets have evidently authenticated the efficiency of our proposals.
 
 <u>**Training and validating CaretNet on Stanford Dogs:**</u>
 
-- For training CaretNet on datasets Stanford Dogs and ImageNet:
 ```
-$ python Train_CaretNet_StanfordDogs.py
-$ python Train_CaretNet_ImageNet.py
+$ python CaretNet_StanfordDogs.py #for training
+$ python Train_CaretNet_StanfordDogs.py --evaluate #for validating
 ```
-- For validating CaretNet on datasets Stanford Dogs and ImageNet::
-```
-$ python Train_CaretNet_StanfordDogs.py --evaluate
-$ python Train_CaretNet_ImageNet.py --evaluate
-```
-<u>**Note:**</u>
-- Subject to your system, modify these files (*.py) to have the right path to dataset
-
-- For the instance of validation of CaretNet on ImageNet, download its trained model at: [Click here](https://drive.google.com/file/d/106AtFXm9mRM1vf-msBl-XUvvSVU-UZLM/view?usp=drive_link). And then locate the downloaded file as ./checkpoints/ImageNet1k/model_best.pth.tar
-
 **Related citation(s):**
 
 If you use any materials, please cite the following relevant work(s).
