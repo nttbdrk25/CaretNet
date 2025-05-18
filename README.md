@@ -19,7 +19,7 @@ network is introduced by addressing three robust caret-shape segments of BISF bl
 patterns of a given tensor. Experimental results for image recognition on various
 benchmark datasets have evidently authenticated the efficiency of our proposals.
 
-<u>**Training and validating CaretNet on dataset Stanford Dogs:**</u>
+<u>**Training and validating CaretNet on Stanford Dogs:**</u>
 
 - For training CaretNet on datasets Stanford Dogs and ImageNet:
 ```
