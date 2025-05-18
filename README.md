@@ -43,8 +43,8 @@ If you use any materials, please cite the following relevant work(s).
 ```
 @article{CaretNetNguyen25,
   author       = {Thanh Tuan Nguyen, Hoang Anh Pham, Thanh Phuong Nguyen, Thinh Vinh Le, Hoai Nam Vu, Van-Dung Hoang},
-  title        = {NetTOP: A light-weight network of orthogonal-plane features for image recognition},
+  title        = {CaretNet: A lightweight model of interleaved spatial features for image recognition},
   journal      = {Machine Learning},
-  note         = {(submitted in 2024)}
+  note         = {(submitted in 2025)}
 }
 ```
