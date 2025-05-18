@@ -1,8 +1,7 @@
 # CaretNet: A lightweight model of interleaved spatial features for image recognition
 
 **Abstract:**
-
-* Structuring a lightweight deep model is one of the essential solutions for real
+Structuring a lightweight deep model is one of the essential solutions for real
 applications in mobile devices or embedded systems. However, the performance
 of such networks is usually modest due to the lack of diversity of spatial patterns
 in feature extraction as well as the imperfection of aggregated spatial information for identity mappings. To deal with these problems, we introduce an efficient
