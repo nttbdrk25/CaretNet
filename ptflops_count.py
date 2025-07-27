@@ -2,7 +2,7 @@
 """
 Created on Fri Feb 10 17:25:35 2023
 
-@author: tuann
+@author: tuann 
 """
 import torch
 from ptflops import get_model_complexity_info
