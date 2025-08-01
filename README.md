@@ -32,7 +32,7 @@ If you use any materials, please cite the following relevant work(s).
 @article{CaretNetNguyen25,
   author       = {Thanh Tuan Nguyen, Hoang Anh Pham, Thanh Phuong Nguyen, Thinh Vinh Le, Hoai Nam Vu, Van-Dung Hoang},
   title        = {CaretNet: A lightweight model of interleaved spatial features for image recognition},
-  journal      = {Computer Vision and Image Understanding},
+  journal      = {Neural Networks},
   note         = {(submitted in 2025)}
 }
 ```
