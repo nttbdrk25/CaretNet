@@ -6,7 +6,7 @@ import torch.nn.init
 import torchvision.transforms as Tr
 from .common import conv1x1_block, conv3x3_block, Classifier,conv3x3_dw_blockAll
 from .SE_Attention import *
-class BIFblock(torch.nn.Module):#interleave tensors
+class MRCFblock(torch.nn.Module):#interleave tensors
     """
     interleave block internally used in CaretNet.
     """
@@ -89,7 +89,7 @@ class CaretNet(torch.nn.Module):
             stage = torch.nn.Sequential()
             for unit_id, unit_channels in enumerate(stage_channels):
                 stride = strides[stage_id] if unit_id == 0 else 1                
-                stage.add_module("unit{}".format(unit_id + 1), BIFblock(in_channels=in_channels, out_channels=unit_channels, stride=stride,init_status=init_status))
+                stage.add_module("unit{}".format(unit_id + 1), MRCFblock(in_channels=in_channels, out_channels=unit_channels, stride=stride,init_status=init_status))
                 init_status = False
                 in_channels = unit_channels
             self.backbone.add_module("stage{}".format(stage_id + 1), stage)
