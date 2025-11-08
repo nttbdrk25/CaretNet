@@ -24,7 +24,7 @@ If you use any materials, please cite the following relevant work(s).
 @article{CaretNetNguyen25,
   author       = {Thanh Tuan Nguyen, Hoang Anh Pham, Thanh Phuong Nguyen, Thinh Vinh Le, Hoai Nam Vu, Van-Dung Hoang},
   title        = {CaretNet: A lightweight model of moment-residual-coherent features for image recognition},
-  journal      = {Computers and Electrical Engineering},
+  journal      = {ACM Transactions on Multimedia Computing, Communications, and Applications},
   note         = {(submitted in 2025)}
 }
 ```
