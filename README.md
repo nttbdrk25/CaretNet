@@ -1,5 +1,4 @@
 # Lightweight moment-residual-coherent patterns for image recognition
-
 **Abstract:**
 The learning ability of lightweight CNN-based models is usually modest due to lack of
 spatial diversity in feature extraction as well as the imperfection of aggregated spatial
