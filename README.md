@@ -31,6 +31,8 @@ If you use any materials, please cite the following relevant work(s).
   author       = {Thanh Tuan Nguyen, Hoang Anh Pham, Thanh Phuong Nguyen, Thinh Vinh Le, Hoai Nam Vu, Van-Dung Hoang},
   title        = {Lightweight moment-residual-coherent patterns for image recognition},
   journal      = {Pattern Recognition Letters},
-  note         = {(submitted in 2025)}
+  volume       = {204}
+  page         = {55--63}
+  year         = {2026}
 }
 ```
