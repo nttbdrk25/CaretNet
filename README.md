@@ -19,7 +19,7 @@ proposals.
 
 ```
 $ python CaretNet_StanfordDogs.py #for training
-$ python Train_CaretNet_StanfordDogs.py --evaluate #for validating
+$ python CaretNet_StanfordDogs.py --evaluate #for validating
 ```
 **Related citation(s):**
 
